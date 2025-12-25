@@ -1,5 +1,4 @@
 import { Helmet } from 'react-helmet-async';
-import { Background3D } from '@/components/3d/Background3D';
 import { Navbar } from '@/components/layout/Navbar';
 import { Footer } from '@/components/layout/Footer';
 import { HeroSection } from '@/components/sections/HeroSection';
@@ -21,8 +20,7 @@ const Index = () => {
         <link rel="canonical" href="https://aayusx.lovable.app" />
       </Helmet>
       
-      <div className="relative min-h-screen">
-        <Background3D />
+      <div className="min-h-screen">
         <Navbar />
         
         <main>
