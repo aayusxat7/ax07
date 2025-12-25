@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import { ArrowDown, Code2, Shield } from 'lucide-react';
 import profileImage from '@/assets/aayush-profile.jpg';
 export function HeroSection() {
-  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden">
+  return <section id="home" className="min-h-screen flex items-center justify-center relative overflow-hidden text-[#477ff0]">
       {/* Subtle background gradient */}
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-transparent to-accent/5" />
       
